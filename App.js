@@ -4,6 +4,8 @@ import { NavigationContainer } from '@react-navigation/native';
 import 'react-native-gesture-handler';
 import Route from "./src/routes/route";
 
+// ทำตามในคลปถึง 1:09:03 กำลังแก้เออเร่ออีหยังวะอยู่
+
 export default function App() {
   return (
     <NavigationContainer>
