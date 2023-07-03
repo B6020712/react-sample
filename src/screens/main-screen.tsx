@@ -55,8 +55,14 @@ export default function MainScreen() {
     return (
         <Center _dark={{bg: 'blueGray.900'}} _light={{bg: 'blueGray.50'}} flex={1}>
             <VStack space={5} alignItems="center" w="full">
-                <TaskList data={data} onToggleItem={handleToggleTaskItem} onChangeSubject={handleChangeTaskItemSubject} onFinishEditing={handleFinishEditingTaskItem} onPressLabel={handlePressTaskItemLabel} onRemoveItem={handleRemoveItem} editingItemId={editingItemId} />
-                {/* <TaskItem isEditing={isEditing} isDone={checked} onToggleCheckbox={handlePressCheckbox} subject={subject} onPressLabel={() => setEditing(true)} onChangeSubject={setSubject} onfinishEditing={() => setEditing(false)} /> */}
+                <TaskList 
+                    data={data} 
+                    onToggleItem={handleToggleTaskItem} 
+                    onChangeSubject={handleChangeTaskItemSubject} 
+                    onFinishEditing={handleFinishEditingTaskItem} 
+                    onPressLabel={handlePressTaskItemLabel} 
+                    onRemoveItem={handleRemoveItem} 
+                    editingItemId={editingItemId} />
                 <ThemeToggle />
             </VStack>
         </Center>
