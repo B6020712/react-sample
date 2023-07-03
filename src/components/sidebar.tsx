@@ -14,10 +14,10 @@ const Sidebar = (props: DrawerContentComponentProps) => {
         navigation.closeDrawer()
     }, [navigation])
     const handlePressMenuMain = useCallback(() => {
-        navigation.navigate('main')
+        navigation.navigate('Main')
     }, [navigation])
     const handlePressMenuAbout = useCallback(() => {
-        navigation.navigate('about')
+        navigation.navigate('About')
     }, [navigation])
 
     return (
