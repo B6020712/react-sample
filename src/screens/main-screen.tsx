@@ -54,9 +54,9 @@ export default function MainScreen() {
     
     return (
         <AnimatedColorBox flex={1} bg={useColorModeValue('warmGray.50', 'primary.900')} w="full">
-            {/* <Masthead title="What's up, Takoyaki!" image={require('../assets/adaptive-icon.png')}> */}
+            <Masthead title="What's up, Takoyaki!" image={require('../../assets/adaptive-icon.png')}>
                 <NavBar />
-            {/* </Masthead> */}
+            </Masthead>
             <VStack flex={1} space={1} bg={useColorModeValue('warmGray.50', 'primary.900')} mt="-20px" borderTopLeftRadius="20px" borderTopRightRadius="20px" pt="20px">
                 <TaskList 
                     data={data} 

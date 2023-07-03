@@ -13,9 +13,9 @@ const AboutScreen = () => {
             bg={useColorModeValue('warmGray.50', 'warmGray900')}
             w="full"
         >
-            {/* <Masthead title="About this app" image={require('@/assets/icon.png')}> */}
+            <Masthead title="About this app" image={require('../../assets/icon.png')}>
                 <NavBar />
-            {/* </Masthead> */}
+            </Masthead>
             <ScrollView 
                 borderTopLeftRadius="20px" 
                 borderTopRightRadius="20px"
@@ -26,14 +26,14 @@ const AboutScreen = () => {
             >
                 <VStack flex={1} space={4}>
                     <Box alignItems="center">
-                        {/* <Image 
-                            source={require('../assets/icon.png')} 
+                        <Image 
+                            source={require('../../assets/icon.png')} 
                             borderRadius="full"
                             resizeMode="cover"
                             w={120}
                             h={120}
                             alt="author"
-                        /> */}
+                        />
                     </Box>
                     <Text fontSize="md" w="full">This is my first React Native following the tutorial of DevAsLife channel on youtube</Text>
                     <LinkButton 

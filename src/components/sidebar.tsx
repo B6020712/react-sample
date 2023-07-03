@@ -37,14 +37,14 @@ const Sidebar = (props: DrawerContentComponentProps) => {
                         }}
                     />
                 </HStack>
-                {/* <Avatar 
-                    source={require('../assets/icon.png')} 
+                <Avatar 
+                    source={require('../../assets/icon.png')} 
                     size="xl" 
                     borderRadius={100}
                     mb={6}
                     borderColor="secondary.500"
                     borderWidth={3}
-                /> */}
+                />
                 <Heading mb={4} size="xl">
                     Takoyaki Gyozaa
                 </Heading>
